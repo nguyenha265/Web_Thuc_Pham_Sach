@@ -1,0 +1,58 @@
+.testimonial-area {
+  font-family: 'Fontawesome', sans-serif;
+  padding-top: 25px;
+  padding-bottom: 0;
+  background-color: #a9a9a9;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+/* carousel */
+#quote-carousel
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+#quote-carousel .carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon
+{
+  margin-bottom: 40%;
+}
+
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li
+{
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  width: 50px;
+  background: #c0c0c0;
+}
+
+#quote-carousel .carousel-indicators .active
+{
+  background: #fff;
+}
+
+#quote-carousel img
+{
+  width: 120px;
+  height: 120px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+.carousel-item blockquote {
+  border-left: none;
+  margin: 0;
+}
+
+.carousel-item blockquote img {
+  margin-bottom: 20px;
+}
+
+.carousel-item blockquote p:before {
+  float: left;
+  margin-right: 10px;
+}
